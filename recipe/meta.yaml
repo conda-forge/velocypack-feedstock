@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "0.1.3" %}
 
 package:
   name: velocypack
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/gdmiron/velocypack/archive/v{{ version }}.tar.gz
-  sha256: c22edf1212bd0b59feabea995011705b9fd02ba08b2bff12956e8c58b1279ef4
+  sha256: 84452cfabd727563649168a127cb537a4aa34672504174715004b06bc80aa43d
 
 build:
   number: 0
