@@ -18,6 +18,7 @@ requirements:
     - cmake
     - ninja  # [win]
     - make  # [unix]
+    - make  # [osx]
 
 test:
   commands:
