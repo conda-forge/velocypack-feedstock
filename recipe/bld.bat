@@ -17,6 +17,7 @@ cmake -G Ninja ^
       -DCMAKE_INCLUDE_PATH:PATH="%LIBRARY_INC%" ^
       -DHashType=xxhash ^
       -DEnableSSE=OFF ^
+      -DBuildTools=OFF ^
       -DBuildTests=OFF ^
       -DBuildVelocyPackExamples=OFF ^
       -DBuildLargeTests=OFF ^
